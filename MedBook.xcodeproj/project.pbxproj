@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF46C85E2AD6953C00DE388D /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46C85D2AD6953C00DE388D /* Font+Extension.swift */; };
+		CF46C8602AD6967200DE388D /* MDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46C85F2AD6967200DE388D /* MDButton.swift */; };
+		CF46C8622AD69D9E00DE388D /* Button+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46C8612AD69D9E00DE388D /* Button+Modifier.swift */; };
+		CF46C8642AD69E3900DE388D /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46C8632AD69E3900DE388D /* View+Extension.swift */; };
+		CF46C86A2AD69F7700DE388D /* MDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46C8692AD69F7700DE388D /* MDTextField.swift */; };
+		CF46C86C2AD6A49900DE388D /* View+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46C86B2AD6A49900DE388D /* View+Modifier.swift */; };
+		CF46C86E2AD6A59400DE388D /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46C86D2AD6A59400DE388D /* UIFont+Extension.swift */; };
+		CF47631E2AD57F8600FB66B3 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47631D2AD57F8600FB66B3 /* APIService.swift */; };
+		CF4763262AD585EC00FB66B3 /* Degular-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF4763252AD585EC00FB66B3 /* Degular-Bold.ttf */; };
+		CF4763372AD58BB500FB66B3 /* Degular-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF4763342AD58AD300FB66B3 /* Degular-Regular.ttf */; };
+		CF4763382AD58BB800FB66B3 /* Degular-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF4763352AD58AD300FB66B3 /* Degular-Semibold.ttf */; };
+		CF4763392AD58BBC00FB66B3 /* Degular-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF4763362AD58AD300FB66B3 /* Degular-Medium.ttf */; };
+		CF47633B2AD58BFC00FB66B3 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47633A2AD58BFC00FB66B3 /* FontManager.swift */; };
 		CFA2A3EE2AD57BBE0065AA42 /* MedBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2A3ED2AD57BBE0065AA42 /* MedBookApp.swift */; };
 		CFA2A3F02AD57BBE0065AA42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2A3EF2AD57BBE0065AA42 /* ContentView.swift */; };
 		CFA2A3F22AD57BBF0065AA42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA2A3F12AD57BBF0065AA42 /* Assets.xcassets */; };
@@ -14,6 +27,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF46C85D2AD6953C00DE388D /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		CF46C85F2AD6967200DE388D /* MDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDButton.swift; sourceTree = "<group>"; };
+		CF46C8612AD69D9E00DE388D /* Button+Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Modifier.swift"; sourceTree = "<group>"; };
+		CF46C8632AD69E3900DE388D /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		CF46C8692AD69F7700DE388D /* MDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDTextField.swift; sourceTree = "<group>"; };
+		CF46C86B2AD6A49900DE388D /* View+Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Modifier.swift"; sourceTree = "<group>"; };
+		CF46C86D2AD6A59400DE388D /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		CF47631D2AD57F8600FB66B3 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CF4763252AD585EC00FB66B3 /* Degular-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Bold.ttf"; sourceTree = "<group>"; };
+		CF4763342AD58AD300FB66B3 /* Degular-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Regular.ttf"; sourceTree = "<group>"; };
+		CF4763352AD58AD300FB66B3 /* Degular-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Semibold.ttf"; sourceTree = "<group>"; };
+		CF4763362AD58AD300FB66B3 /* Degular-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Medium.ttf"; sourceTree = "<group>"; };
+		CF47633A2AD58BFC00FB66B3 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		CFA2A3EA2AD57BBE0065AA42 /* MedBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA2A3ED2AD57BBE0065AA42 /* MedBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedBookApp.swift; sourceTree = "<group>"; };
 		CFA2A3EF2AD57BBE0065AA42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +58,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF46C8652AD69F3100DE388D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CF46C85D2AD6953C00DE388D /* Font+Extension.swift */,
+				CF46C8632AD69E3900DE388D /* View+Extension.swift */,
+				CF46C86D2AD6A59400DE388D /* UIFont+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CF46C8662AD69F3A00DE388D /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				CF46C8612AD69D9E00DE388D /* Button+Modifier.swift */,
+				CF46C86B2AD6A49900DE388D /* View+Modifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		CF46C8672AD69F4600DE388D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CF47631D2AD57F8600FB66B3 /* APIService.swift */,
+				CF47633A2AD58BFC00FB66B3 /* FontManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CF46C8682AD69F4F00DE388D /* Shared Components */ = {
+			isa = PBXGroup;
+			children = (
+				CF46C85F2AD6967200DE388D /* MDButton.swift */,
+				CF46C8692AD69F7700DE388D /* MDTextField.swift */,
+			);
+			path = "Shared Components";
+			sourceTree = "<group>";
+		};
+		CF4763332AD58AD300FB66B3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CF4763362AD58AD300FB66B3 /* Degular-Medium.ttf */,
+				CF4763342AD58AD300FB66B3 /* Degular-Regular.ttf */,
+				CF4763352AD58AD300FB66B3 /* Degular-Semibold.ttf */,
+				CF4763252AD585EC00FB66B3 /* Degular-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		CFA2A3E12AD57BBE0065AA42 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +129,11 @@
 				CFA2A3EF2AD57BBE0065AA42 /* ContentView.swift */,
 				CFA2A3F12AD57BBF0065AA42 /* Assets.xcassets */,
 				CFA2A3F32AD57BBF0065AA42 /* Preview Content */,
+				CF46C8672AD69F4600DE388D /* Helpers */,
+				CF4763332AD58AD300FB66B3 /* Fonts */,
+				CF46C8652AD69F3100DE388D /* Extensions */,
+				CF46C8682AD69F4F00DE388D /* Shared Components */,
+				CF46C8662AD69F3A00DE388D /* Modifiers */,
 			);
 			path = MedBook;
 			sourceTree = "<group>";
@@ -125,8 +204,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4763262AD585EC00FB66B3 /* Degular-Bold.ttf in Resources */,
 				CFA2A3F52AD57BBF0065AA42 /* Preview Assets.xcassets in Resources */,
+				CF4763392AD58BBC00FB66B3 /* Degular-Medium.ttf in Resources */,
+				CF4763372AD58BB500FB66B3 /* Degular-Regular.ttf in Resources */,
 				CFA2A3F22AD57BBF0065AA42 /* Assets.xcassets in Resources */,
+				CF4763382AD58BB800FB66B3 /* Degular-Semibold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +220,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF46C8622AD69D9E00DE388D /* Button+Modifier.swift in Sources */,
+				CF46C86A2AD69F7700DE388D /* MDTextField.swift in Sources */,
 				CFA2A3F02AD57BBE0065AA42 /* ContentView.swift in Sources */,
+				CF46C8642AD69E3900DE388D /* View+Extension.swift in Sources */,
+				CF46C85E2AD6953C00DE388D /* Font+Extension.swift in Sources */,
+				CF46C8602AD6967200DE388D /* MDButton.swift in Sources */,
+				CF47631E2AD57F8600FB66B3 /* APIService.swift in Sources */,
+				CF46C86C2AD6A49900DE388D /* View+Modifier.swift in Sources */,
+				CF47633B2AD58BFC00FB66B3 /* FontManager.swift in Sources */,
 				CFA2A3EE2AD57BBE0065AA42 /* MedBookApp.swift in Sources */,
+				CF46C86E2AD6A59400DE388D /* UIFont+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +367,7 @@
 				DEVELOPMENT_TEAM = SJ64B32FPH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +397,7 @@
 				DEVELOPMENT_TEAM = SJ64B32FPH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
