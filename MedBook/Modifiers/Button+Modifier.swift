@@ -13,8 +13,7 @@ struct MDButtonShape: ViewModifier {
     
     func body(content: Content) -> some View {
         content
-            .padding(.horizontal, 36)
-            .padding(.vertical, 10)
+            .frame(height: 48)
             .background(.white)
             .clipShape(.rect(cornerRadius: 12))
             .overlay {

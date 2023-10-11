@@ -8,16 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showSignup = false
+    @State private var showLogin = false
+    
     var body: some View {
         NavigationStack {
-            ScrollView {
+            ZStack {
+                Image(.background)
+                    .resizable()
+                    .ignoresSafeArea()
                 VStack {
-                    Image(systemName: "globe")
-                        .imageScale(.large)
-                        .foregroundStyle(.tint)
-                    Text("Hello, world!")
+                    Image(.landing)
+                        .resizable()
+                        .scaledToFit()
+                    Spacer()
+                    HStack {
+                        MDButton(style: .bgText(text: "Signup")) {
+                            showSignup.toggle()
+                        }
+                        MDButton(style: .bgText(text: "Login")) {
+                            showLogin.toggle()
+                        }
+                    }
+                    .padding(.horizontal, 36)
+                    .padding(.bottom)
                 }
-                .padding()
+            }
+            .navigationDestination(isPresented: $showLogin) {
+                LoginView()
+            }
+            .navigationDestination(isPresented: $showSignup) {
+                SignUpView()
             }
             .navigationTitle("Medbook")
             .transparentNavigationBar()

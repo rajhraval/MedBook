@@ -22,9 +22,13 @@ enum ButtonActionStyle {
 }
 
 enum MDButtonStyle {
-    case plainText(text: String, style: ButtonActionStyle)
-    case bgText(text: String, style: ButtonActionStyle)
-    case textWithImage(text: String, image: String, style: ButtonActionStyle)
+    
+    typealias buttonStyle = ButtonActionStyle
+    
+    case plainText(text: String, style: buttonStyle = .primary)
+    case bgText(text: String, style: buttonStyle = .primary)
+    case textWithImage(text: String, image: String, style: buttonStyle = .primary)
+    case image(image: String, style: buttonStyle = .primary)
 }
 
 struct MDButton: View {
@@ -49,6 +53,7 @@ struct MDButton: View {
                 Text(text)
                     .font(.button)
                     .foregroundStyle(style.tint)
+                    .frame(maxWidth: .infinity)
             }
             .mdButtonShape(style: style)
         case .textWithImage(let text, let image, let style):
@@ -61,8 +66,17 @@ struct MDButton: View {
                 }
                 .font(.button)
                 .foregroundStyle(style.tint)
+                .frame(maxWidth: .infinity)
             }
             .mdButtonShape(style: style)
+        case .image(let image, let style):
+            Button(action: {
+                action()
+            }) {
+                Image(systemName: image)
+                    .font(.text)
+                    .foregroundStyle(style.tint)
+            }
         }
     }
 }
@@ -70,7 +84,11 @@ struct MDButton: View {
 #Preview {
     VStack(spacing: 24) {
         MDButton(style: .plainText(text: "Logout", style: .destructive)) {}
-        MDButton(style: .bgText(text: "Signup", style: .primary)) {}
-        MDButton(style: .textWithImage(text: "Login", image: "arrow.right", style: .primary)) { }
+        MDButton(style: .bgText(text: "Signup")) {}
+        MDButton(style: .textWithImage(text: "Login", image: "arrow.right")) { }
+        MDButton(style: .image(image: "chevron.left")) {
+            
+        }
     }
+    .padding()
 }
