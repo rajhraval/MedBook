@@ -29,18 +29,13 @@ enum Endpoint {
     }
 }
 
-enum APIError {
-    case decodingError
-    case unknownError
-}
-
-class APIService {
+final class APIService {
     
     static let shared = APIService()
     
     private init() {}
     
-    func fetchZenData<T: Codable>(for endpoint: Endpoint, for date: Date =  .now) async throws -> T {
+    func fetch<T: Codable>(for endpoint: Endpoint) async throws -> T {
         let (data, _) = try await URLSession.shared.data(from: endpoint.url)
         let decoder = JSONDecoder()
         return try decoder.decode(T.self, from: data)

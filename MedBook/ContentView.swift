@@ -36,13 +36,14 @@ struct ContentView: View {
                 }
             }
             .navigationDestination(isPresented: $showLogin) {
-                LoginView()
+                LoginView(fromHome: true)
             }
             .navigationDestination(isPresented: $showSignup) {
                 SignUpView()
             }
             .navigationTitle("Medbook")
             .transparentNavigationBar()
+            .navigationBarBackButtonHidden()
         }
     }
 }

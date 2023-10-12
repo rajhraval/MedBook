@@ -11,7 +11,11 @@ import SwiftUI
 struct MedBookApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if UserDefaults.standard.bool(for: .isLoggedIn) {
+                HomeView()
+            } else {
+                ContentView()
+            }
         }
     }
 }

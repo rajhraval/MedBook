@@ -14,7 +14,7 @@ extension Font {
     }
     
     static let header = font(name: .degular, weight: .bold, size: .header)
-    static let title = font(name: .degular, weight: .semibold, size: .title)
+    static let appTitle = font(name: .degular, weight: .semibold, size: .title)
     static let button = font(name: .degular, weight: .semibold, size: .button)
     static let text = font(name: .degular, weight: .regular, size: .text)
     static let textHint = font(name: .degular, weight: .regular, size: .textHint)

@@ -17,6 +17,8 @@
 		CF46C8702AD6ABFF00DE388D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46C86F2AD6ABFF00DE388D /* SignUpView.swift */; };
 		CF46C8722AD6AC0800DE388D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46C8712AD6AC0800DE388D /* LoginView.swift */; };
 		CF46C8742AD6AC1300DE388D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46C8732AD6AC1300DE388D /* HomeView.swift */; };
+		CF46C8772AD6B4AB00DE388D /* CountryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46C8762AD6B4AB00DE388D /* CountryResponse.swift */; };
+		CF46C8792AD6B59500DE388D /* CountryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF46C8782AD6B59500DE388D /* CountryData.swift */; };
 		CF47631E2AD57F8600FB66B3 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47631D2AD57F8600FB66B3 /* APIService.swift */; };
 		CF4763262AD585EC00FB66B3 /* Degular-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF4763252AD585EC00FB66B3 /* Degular-Bold.ttf */; };
 		CF4763372AD58BB500FB66B3 /* Degular-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF4763342AD58AD300FB66B3 /* Degular-Regular.ttf */; };
@@ -27,6 +29,13 @@
 		CFA2A3F02AD57BBE0065AA42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2A3EF2AD57BBE0065AA42 /* ContentView.swift */; };
 		CFA2A3F22AD57BBF0065AA42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA2A3F12AD57BBF0065AA42 /* Assets.xcassets */; };
 		CFA2A3F52AD57BBF0065AA42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA2A3F42AD57BBF0065AA42 /* Preview Assets.xcassets */; };
+		CFE722232AD7E9DA004F0BAE /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE722222AD7E9DA004F0BAE /* SignUpViewModel.swift */; };
+		CFE722282AD7FAE0004F0BAE /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE722272AD7FAE0004F0BAE /* UserDefaults+Extension.swift */; };
+		CFE7222B2AD800FD004F0BAE /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = CFE7222A2AD800FD004F0BAE /* KeychainAccess */; };
+		CFE7222D2AD80128004F0BAE /* CredentialsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE7222C2AD80128004F0BAE /* CredentialsManager.swift */; };
+		CFE7222F2AD80F65004F0BAE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE7222E2AD80F65004F0BAE /* LoginViewModel.swift */; };
+		CFE722322AD82274004F0BAE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE722312AD82274004F0BAE /* HomeViewModel.swift */; };
+		CFE7223C2AD82EB6004F0BAE /* SimpleToast in Frameworks */ = {isa = PBXBuildFile; productRef = CFE7223B2AD82EB6004F0BAE /* SimpleToast */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +49,8 @@
 		CF46C86F2AD6ABFF00DE388D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		CF46C8712AD6AC0800DE388D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		CF46C8732AD6AC1300DE388D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CF46C8762AD6B4AB00DE388D /* CountryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryResponse.swift; sourceTree = "<group>"; };
+		CF46C8782AD6B59500DE388D /* CountryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryData.swift; sourceTree = "<group>"; };
 		CF47631D2AD57F8600FB66B3 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		CF4763252AD585EC00FB66B3 /* Degular-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Bold.ttf"; sourceTree = "<group>"; };
 		CF4763342AD58AD300FB66B3 /* Degular-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Regular.ttf"; sourceTree = "<group>"; };
@@ -51,6 +62,11 @@
 		CFA2A3EF2AD57BBE0065AA42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFA2A3F12AD57BBF0065AA42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFA2A3F42AD57BBF0065AA42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFE722222AD7E9DA004F0BAE /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		CFE722272AD7FAE0004F0BAE /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		CFE7222C2AD80128004F0BAE /* CredentialsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsManager.swift; sourceTree = "<group>"; };
+		CFE7222E2AD80F65004F0BAE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CFE722312AD82274004F0BAE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE7223C2AD82EB6004F0BAE /* SimpleToast in Frameworks */,
+				CFE7222B2AD800FD004F0BAE /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 				CF46C85D2AD6953C00DE388D /* Font+Extension.swift */,
 				CF46C8632AD69E3900DE388D /* View+Extension.swift */,
 				CF46C86D2AD6A59400DE388D /* UIFont+Extension.swift */,
+				CFE722272AD7FAE0004F0BAE /* UserDefaults+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -88,6 +107,7 @@
 			children = (
 				CF47631D2AD57F8600FB66B3 /* APIService.swift */,
 				CF47633A2AD58BFC00FB66B3 /* FontManager.swift */,
+				CFE7222C2AD80128004F0BAE /* CredentialsManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -101,14 +121,23 @@
 			path = "Shared Components";
 			sourceTree = "<group>";
 		};
-		CF46C8752AD6AC1D00DE388D /* Views */ = {
+		CF46C8752AD6AC1D00DE388D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				CF46C86F2AD6ABFF00DE388D /* SignUpView.swift */,
-				CF46C8712AD6AC0800DE388D /* LoginView.swift */,
-				CF46C8732AD6AC1300DE388D /* HomeView.swift */,
+				CFE722242AD7F51E004F0BAE /* Sign Up */,
+				CFE722302AD80F6E004F0BAE /* Login  */,
+				CFE722332AD82279004F0BAE /* Home */,
 			);
-			path = Views;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CF46C87A2AD6B5C500DE388D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF46C8762AD6B4AB00DE388D /* CountryResponse.swift */,
+				CF46C8782AD6B59500DE388D /* CountryData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		CF4763332AD58AD300FB66B3 /* Fonts */ = {
@@ -143,7 +172,7 @@
 			children = (
 				CFA2A3ED2AD57BBE0065AA42 /* MedBookApp.swift */,
 				CFA2A3EF2AD57BBE0065AA42 /* ContentView.swift */,
-				CF46C8752AD6AC1D00DE388D /* Views */,
+				CF46C8752AD6AC1D00DE388D /* Modules */,
 				CFA2A3F12AD57BBF0065AA42 /* Assets.xcassets */,
 				CFA2A3F32AD57BBF0065AA42 /* Preview Content */,
 				CF46C8672AD69F4600DE388D /* Helpers */,
@@ -151,6 +180,7 @@
 				CF46C8652AD69F3100DE388D /* Extensions */,
 				CF46C8682AD69F4F00DE388D /* Shared Components */,
 				CF46C8662AD69F3A00DE388D /* Modifiers */,
+				CF46C87A2AD6B5C500DE388D /* Models */,
 			);
 			path = MedBook;
 			sourceTree = "<group>";
@@ -161,6 +191,33 @@
 				CFA2A3F42AD57BBF0065AA42 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFE722242AD7F51E004F0BAE /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				CF46C86F2AD6ABFF00DE388D /* SignUpView.swift */,
+				CFE722222AD7E9DA004F0BAE /* SignUpViewModel.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		CFE722302AD80F6E004F0BAE /* Login  */ = {
+			isa = PBXGroup;
+			children = (
+				CF46C8712AD6AC0800DE388D /* LoginView.swift */,
+				CFE7222E2AD80F65004F0BAE /* LoginViewModel.swift */,
+			);
+			path = "Login ";
+			sourceTree = "<group>";
+		};
+		CFE722332AD82279004F0BAE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CF46C8732AD6AC1300DE388D /* HomeView.swift */,
+				CFE722312AD82274004F0BAE /* HomeViewModel.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +236,10 @@
 			dependencies = (
 			);
 			name = MedBook;
+			packageProductDependencies = (
+				CFE7222A2AD800FD004F0BAE /* KeychainAccess */,
+				CFE7223B2AD82EB6004F0BAE /* SimpleToast */,
+			);
 			productName = MedBook;
 			productReference = CFA2A3EA2AD57BBE0065AA42 /* MedBook.app */;
 			productType = "com.apple.product-type.application";
@@ -207,6 +268,10 @@
 				Base,
 			);
 			mainGroup = CFA2A3E12AD57BBE0065AA42;
+			packageReferences = (
+				CFE722292AD800FD004F0BAE /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				CFE7223A2AD82EB6004F0BAE /* XCRemoteSwiftPackageReference "SimpleToast" */,
+			);
 			productRefGroup = CFA2A3EB2AD57BBE0065AA42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -238,18 +303,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF46C8622AD69D9E00DE388D /* Button+Modifier.swift in Sources */,
+				CFE722232AD7E9DA004F0BAE /* SignUpViewModel.swift in Sources */,
 				CF46C8742AD6AC1300DE388D /* HomeView.swift in Sources */,
 				CF46C86A2AD69F7700DE388D /* MDTextField.swift in Sources */,
+				CF46C8772AD6B4AB00DE388D /* CountryResponse.swift in Sources */,
 				CFA2A3F02AD57BBE0065AA42 /* ContentView.swift in Sources */,
 				CF46C8642AD69E3900DE388D /* View+Extension.swift in Sources */,
 				CF46C8702AD6ABFF00DE388D /* SignUpView.swift in Sources */,
+				CFE7222F2AD80F65004F0BAE /* LoginViewModel.swift in Sources */,
 				CF46C85E2AD6953C00DE388D /* Font+Extension.swift in Sources */,
 				CF46C8602AD6967200DE388D /* MDButton.swift in Sources */,
 				CF47631E2AD57F8600FB66B3 /* APIService.swift in Sources */,
+				CF46C8792AD6B59500DE388D /* CountryData.swift in Sources */,
+				CFE7222D2AD80128004F0BAE /* CredentialsManager.swift in Sources */,
 				CF46C86C2AD6A49900DE388D /* View+Modifier.swift in Sources */,
 				CF47633B2AD58BFC00FB66B3 /* FontManager.swift in Sources */,
+				CFE722322AD82274004F0BAE /* HomeViewModel.swift in Sources */,
 				CF46C8722AD6AC0800DE388D /* LoginView.swift in Sources */,
 				CFA2A3EE2AD57BBE0065AA42 /* MedBookApp.swift in Sources */,
+				CFE722282AD7FAE0004F0BAE /* UserDefaults+Extension.swift in Sources */,
 				CF46C86E2AD6A59400DE388D /* UIFont+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +465,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -423,6 +496,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +532,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFE722292AD800FD004F0BAE /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		CFE7223A2AD82EB6004F0BAE /* XCRemoteSwiftPackageReference "SimpleToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sanzaru/SimpleToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFE7222A2AD800FD004F0BAE /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFE722292AD800FD004F0BAE /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		CFE7223B2AD82EB6004F0BAE /* SimpleToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFE7223A2AD82EB6004F0BAE /* XCRemoteSwiftPackageReference "SimpleToast" */;
+			productName = SimpleToast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CFA2A3E22AD57BBE0065AA42 /* Project object */;
 }
